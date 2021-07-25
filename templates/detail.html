@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Detalle</title>
+</head>
+<body>
+    <h1>Detalles sobre {{movie.title}}</h1>
+    <ul>
+        <li>ID: {{movie.id}}</li>
+        <li>Nombre: {{movie.title}}</li>
+        <li>Descripcion: {{movie.descripcion}}</li>
+    </ul>
+    <a href="{{url_for('index')}}">Volver</a>
+</body>
+</html>

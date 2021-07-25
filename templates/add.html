@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Agregar</title>
+</head>
+<body>
+    <h1>Agrega una persona!</h1>
+    <form method="POST">
+        {{form.csrf_token}}
+        <p>
+            {{form.title.label}}<br>
+            {{form.title}}
+        </p>
+        <p>
+            {{form.descripcion.label}}<br>
+            {{form.descripcion}}
+        </p>
+        <p>
+            {{form.imglink.label}}<br>
+            {{form.imglink}}
+        </p>
+        <button type="submit">E N V I A R</button>
+    </form>
+</body>
+</html>
